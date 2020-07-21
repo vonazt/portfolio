@@ -42,6 +42,10 @@ module.exports = {
           "background-position": "1% 0%",
         },
       },
+      fadeIn: {
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+      },
     },
     animationDuration: {
       // defaults to these values
@@ -52,9 +56,13 @@ module.exports = {
       "3s": "3s",
       "4s": "4s",
       "5s": "5s",
+      "10s": "10s",
+      "25s": "25s",
+      "50s": "50s",
+      "75s": "75s",
       "100s": "100s",
       "500s": "500s",
-      "1000s": "1000s"
+      "1000s": "1000s",
     },
     animationTimingFunction: {
       // defaults to these values
@@ -107,6 +115,15 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
+    },
+    extend: {
+      colors: {
+        "gradient-green": "rgba(20, 180, 80, 1)",
+        "gradient-blue": "rgba(40, 120, 180, 1)",
+        "gradient-purple": "rgba(90, 40, 190, 1)",
+        "gradient-pink": "rgba(150, 80, 160, 1)",
+        "gradient-red": "rgba(220, 60, 60, 1)",
+      },
     },
     colors: {
       transparent: "transparent",
