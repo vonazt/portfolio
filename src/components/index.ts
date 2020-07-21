@@ -1,2 +1,3 @@
 export * from "./SiteContainer";
-export * from "./HeroLink";
+export * from "./HeroLanding";
+export * from "./About";

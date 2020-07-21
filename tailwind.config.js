@@ -50,6 +50,10 @@ module.exports = {
     animationDuration: {
       // defaults to these values
       default: "1s",
+      "50ms": "50ms",
+      "250ms": "250ms",
+      "500ms": "500ms",
+      "750ms": "750ms",
       "0s": "0s",
       "1s": "1s",
       "2s": "2s",
@@ -76,6 +80,10 @@ module.exports = {
     animationDelay: {
       // defaults to these values
       default: "0s",
+      "5ms": "5ms",
+      "25ms": "25ms",
+      "50ms": "50ms",
+      "75ms": "75ms",
       "0s": "0s",
       "1s": "1s",
       "2s": "2s",

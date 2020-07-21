@@ -15280,6 +15280,30 @@ video {
   animation-iteration-count: var(--animation-iteration-count);
 }
 
+.animation-50ms {
+  --animation-duration: 50ms;
+  animation-duration: 50ms;
+  animation-duration: var(--animation-duration);
+}
+
+.animation-250ms {
+  --animation-duration: 250ms;
+  animation-duration: 250ms;
+  animation-duration: var(--animation-duration);
+}
+
+.animation-500ms {
+  --animation-duration: 500ms;
+  animation-duration: 500ms;
+  animation-duration: var(--animation-duration);
+}
+
+.animation-750ms {
+  --animation-duration: 750ms;
+  animation-duration: 750ms;
+  animation-duration: var(--animation-duration);
+}
+
 .animation-0s {
   --animation-duration: 0s;
   animation-duration: 0s;
@@ -15376,6 +15400,22 @@ video {
 
 .animation-ease-in-out {
   animation-timing-function: ease-in-out;
+}
+
+.animation-delay-5ms {
+  animation-delay: 5ms;
+}
+
+.animation-delay-25ms {
+  animation-delay: 25ms;
+}
+
+.animation-delay-50ms {
+  animation-delay: 50ms;
+}
+
+.animation-delay-75ms {
+  animation-delay: 75ms;
 }
 
 .animation-delay-0s {
@@ -30100,6 +30140,30 @@ video {
     animation-iteration-count: var(--animation-iteration-count);
   }
 
+  .sm\:animation-50ms {
+    --animation-duration: 50ms;
+    animation-duration: 50ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .sm\:animation-250ms {
+    --animation-duration: 250ms;
+    animation-duration: 250ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .sm\:animation-500ms {
+    --animation-duration: 500ms;
+    animation-duration: 500ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .sm\:animation-750ms {
+    --animation-duration: 750ms;
+    animation-duration: 750ms;
+    animation-duration: var(--animation-duration);
+  }
+
   .sm\:animation-0s {
     --animation-duration: 0s;
     animation-duration: 0s;
@@ -30196,6 +30260,22 @@ video {
 
   .sm\:animation-ease-in-out {
     animation-timing-function: ease-in-out;
+  }
+
+  .sm\:animation-delay-5ms {
+    animation-delay: 5ms;
+  }
+
+  .sm\:animation-delay-25ms {
+    animation-delay: 25ms;
+  }
+
+  .sm\:animation-delay-50ms {
+    animation-delay: 50ms;
+  }
+
+  .sm\:animation-delay-75ms {
+    animation-delay: 75ms;
   }
 
   .sm\:animation-delay-0s {
@@ -44921,6 +45001,30 @@ video {
     animation-iteration-count: var(--animation-iteration-count);
   }
 
+  .md\:animation-50ms {
+    --animation-duration: 50ms;
+    animation-duration: 50ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .md\:animation-250ms {
+    --animation-duration: 250ms;
+    animation-duration: 250ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .md\:animation-500ms {
+    --animation-duration: 500ms;
+    animation-duration: 500ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .md\:animation-750ms {
+    --animation-duration: 750ms;
+    animation-duration: 750ms;
+    animation-duration: var(--animation-duration);
+  }
+
   .md\:animation-0s {
     --animation-duration: 0s;
     animation-duration: 0s;
@@ -45017,6 +45121,22 @@ video {
 
   .md\:animation-ease-in-out {
     animation-timing-function: ease-in-out;
+  }
+
+  .md\:animation-delay-5ms {
+    animation-delay: 5ms;
+  }
+
+  .md\:animation-delay-25ms {
+    animation-delay: 25ms;
+  }
+
+  .md\:animation-delay-50ms {
+    animation-delay: 50ms;
+  }
+
+  .md\:animation-delay-75ms {
+    animation-delay: 75ms;
   }
 
   .md\:animation-delay-0s {
@@ -59742,6 +59862,30 @@ video {
     animation-iteration-count: var(--animation-iteration-count);
   }
 
+  .lg\:animation-50ms {
+    --animation-duration: 50ms;
+    animation-duration: 50ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .lg\:animation-250ms {
+    --animation-duration: 250ms;
+    animation-duration: 250ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .lg\:animation-500ms {
+    --animation-duration: 500ms;
+    animation-duration: 500ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .lg\:animation-750ms {
+    --animation-duration: 750ms;
+    animation-duration: 750ms;
+    animation-duration: var(--animation-duration);
+  }
+
   .lg\:animation-0s {
     --animation-duration: 0s;
     animation-duration: 0s;
@@ -59838,6 +59982,22 @@ video {
 
   .lg\:animation-ease-in-out {
     animation-timing-function: ease-in-out;
+  }
+
+  .lg\:animation-delay-5ms {
+    animation-delay: 5ms;
+  }
+
+  .lg\:animation-delay-25ms {
+    animation-delay: 25ms;
+  }
+
+  .lg\:animation-delay-50ms {
+    animation-delay: 50ms;
+  }
+
+  .lg\:animation-delay-75ms {
+    animation-delay: 75ms;
   }
 
   .lg\:animation-delay-0s {
@@ -74563,6 +74723,30 @@ video {
     animation-iteration-count: var(--animation-iteration-count);
   }
 
+  .xl\:animation-50ms {
+    --animation-duration: 50ms;
+    animation-duration: 50ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .xl\:animation-250ms {
+    --animation-duration: 250ms;
+    animation-duration: 250ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .xl\:animation-500ms {
+    --animation-duration: 500ms;
+    animation-duration: 500ms;
+    animation-duration: var(--animation-duration);
+  }
+
+  .xl\:animation-750ms {
+    --animation-duration: 750ms;
+    animation-duration: 750ms;
+    animation-duration: var(--animation-duration);
+  }
+
   .xl\:animation-0s {
     --animation-duration: 0s;
     animation-duration: 0s;
@@ -74659,6 +74843,22 @@ video {
 
   .xl\:animation-ease-in-out {
     animation-timing-function: ease-in-out;
+  }
+
+  .xl\:animation-delay-5ms {
+    animation-delay: 5ms;
+  }
+
+  .xl\:animation-delay-25ms {
+    animation-delay: 25ms;
+  }
+
+  .xl\:animation-delay-50ms {
+    animation-delay: 50ms;
+  }
+
+  .xl\:animation-delay-75ms {
+    animation-delay: 75ms;
   }
 
   .xl\:animation-delay-0s {
