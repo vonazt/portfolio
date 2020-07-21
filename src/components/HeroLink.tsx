@@ -14,7 +14,7 @@ export const HeroLink: React.FC<HeroLinkProps> = ({
   return (
     <Link to={linkTo}>
       <div
-        className={`text-2xl text-white text-center border-2 hover:bg-white hover:font-bold`}
+        className={`text-2xl w:1 text-white text-center border-2 hover:bg-white hover:font-bold`}
         onMouseOver={() => setIsHoverText(true)}
         onMouseLeave={() => setIsHoverText(false)}
       >
